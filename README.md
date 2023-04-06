@@ -14,7 +14,7 @@ You are free to use the data providing you acknowledge [University of Guam Drone
 
 ### Some assembly required
 
-The original GeoTIFF file is larger GitHub's recommended maximum file size (50 MB), so it was split into 40 MB chunks. Run these command lines to download the repo and reassemble the orthomosaic GeoTIFF file:
+The original GeoTIFF file is larger than GitHub's recommended maximum file size (50 MB), so it was split into 40 MB chunks. Run these command lines to download the repo and reassemble the orthomosaic GeoTIFF file:
 ```
 # download data
 git clone https://github.com/aubreymoore/crb-yona-tiff.git
