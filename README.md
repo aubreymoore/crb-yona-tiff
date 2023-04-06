@@ -23,10 +23,10 @@ git clone https://github.com/aubreymoore/crb-yona-tiff.git
 cd crb-yona-tiff
 
 # reassemble chunks
-cat Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif
+cat chunks/* > Map1_Orthomosaic_export_FriMar31060700467300.tif
 
 # delete chunks
-rm Map1_Orthomosaic_export_FriMar31060700467300.tif_part_??
+rm -rf chunks
 ```
 
 If you are using Windows, you should be able to reassemble chunks using this command line (untested):
