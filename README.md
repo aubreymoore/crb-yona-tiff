@@ -31,5 +31,5 @@ rm -rf chunks
 
 If you are using Windows, you should be able to reassemble chunks using this command line (untested):
 ```
-type  chunks/* > Map1_Orthomosaic_export_FriMar31060700467300.tif  
+type  chunks\* > Map1_Orthomosaic_export_FriMar31060700467300.tif  
 ```
