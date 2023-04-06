@@ -15,10 +15,19 @@ You are free to use the data providing you acknowledge the [University of Guam D
 
 ### Some assembly required
 
-The original GeoTIFF file is larger GitHub's recommended maximum file size (50 MB), so it was split into 40 MB chunks. These chunks can be assembled into the original file using the following command. 
-
+The original GeoTIFF file is larger GitHub's recommended maximum file size (50 MB), so it was split into 40 MB chunks. The following command lines clones this repo, changes to the newly created directory, reassemble the chunks and removes them.
 ```
+# download data
+git clone https://github.com/aubreymoore/crb-yona-tiff.git
+
+# change to newly created directory
+cd crb-yona-tiff
+
+# reassemble chunks
 cat Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif
+
+# delete chunks
+rm Map1_Orthomosaic_export_FriMar31060700467300.tif_part_??
 ```
 
 If you are using Windows, this may work (but I haven't tested it):
