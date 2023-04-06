@@ -26,7 +26,7 @@ cd crb-yona-tiff
 cat chunks/* > Map1_Orthomosaic_export_FriMar31060700467300.tif
 
 # delete chunks
-rm -rf chunks
+rm -rf chunksls
 ```
 
 If you are using Windows, you should be able to reassemble chunks using this command line (untested):
