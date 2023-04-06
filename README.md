@@ -19,4 +19,7 @@ The original GeoTIFF file is larger GitHub's recommended maximum file size (50 M
 cat Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif
 ```
 
-
+If you are using Windows, this may work (but I haven't tested it):
+```
+type  Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif  
+```
