@@ -27,6 +27,10 @@ cat chunks/* > Map1_Orthomosaic_export_FriMar31060700467300.tif
 
 # delete chunks
 rm -rf chunks
+
+# inspect the orthomosaic using QGIS (optional)
+qgis Map1_Orthomosaic_export_FriMar31060700467300.tif
+
 ```
 
 If you are using Windows, you should be able to reassemble chunks using this command line (untested):
