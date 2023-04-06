@@ -7,7 +7,7 @@ Many of the coconut palms in the orthomosaic show damage from coconut rhinoceros
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 This repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-You are free to use the data providing you acknowledge [University of Guam Drone Corps](https://www.uog.edu/nasa-guam-space-grant/uog-drone-corps) pilots. Something like *Thanks to University of Guam Drone Corps pilots Jonelle N. Sayama and Keanno Lawrence A. Fausto for providing drone imagery* will suffice.
+You are free to use the data providing you acknowledge [University of Guam Drone Corps](https://www.uog.edu/nasa-guam-space-grant/uog-drone-corps) pilots. Something like *"Thanks to University of Guam Drone Corps pilots Jonelle N. Sayama and Keanno Lawrence A. Fausto for providing drone imagery"* will suffice.
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -26,10 +26,13 @@ cd crb-yona-tiff
 cat chunks/* > Map1_Orthomosaic_export_FriMar31060700467300.tif
 
 # delete chunks
-rm -rf chunksls
+rm -rf chunks
+
+# inspect the orthomosaic using QGIS (optional)
+qgis Map1_Orthomosaic_export_FriMar31060700467300.tif
 ```
 
 If you are using Windows, you should be able to reassemble chunks using this command line (untested):
 ```
-type  Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif  
+type  chunks\* > Map1_Orthomosaic_export_FriMar31060700467300.tif  
 ```
