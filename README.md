@@ -5,7 +5,7 @@ The drone was piloted by Jonelle N. Sayama and Keanno Lawrence A. Fausto, member
 
 Many of the coconut palms in the orthomosaic show damage from coconut rhinoceros beetle, *Oryctes rhinoceros*, visible as v-shaped cuts to fronds.  
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 Data stored in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 You are free to use the data providing you acknowledge the [University of Guam Drone Corps](https://www.uog.edu/nasa-guam-space-grant/uog-drone-corps) Pilots in anything you publish. Something like *Thanks to University of Guam Drone Corps pilots Jonelle N. Sayama and Keanno Lawrence A. Fausto for providing drone imagery* will suffice.
 
