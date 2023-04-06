@@ -1,19 +1,16 @@
 # crb-yona-tiff
 
-This repo contains an orthomosaic, in GeoTIFF format, generated from drone images capturing damage to coconut palms by coconut rhinoceros beetle.
+This repo contains an orthomosaic, in GeoTIFF format, from a drone survey of coconut palms at Villa Del Carmen, Yona, Guam. 
+The drone was piloted by Jonelle N. Sayama and Keanno Lawrence A. Fausto, members of the University of Guam Drone Corps. The orthomosaic was made by Jonelle N. Sayama using Drone Deploy. 
+
+
 
 ### Some assembly required
 
-The original TIFF is too big to comply with GitHub requirements. So it was split into 40 MB chunks. These chunks can be merged using the following command. 
+The original GeoTIFF file is larger GitHub's recommended maximum file size (50 MB), so it was split into 40 MB chunks. These chunks can be merged using the following command. 
 
 ```
 cat Map1_Orthomosaic_export_FriMar31060700467300.tif_part_?? > Map1_Orthomosaic_export_FriMar31060700467300.tif
-```
-valid
-When you are sure that the resulting GeoTIFF is valid, by opening it with QGIS or other suitable app, chunks can be removed using:
-
-```bash
-rm Map1_Orthomosaic_export_FriMar31060700467300.tif_part_??
 ```
 
 
