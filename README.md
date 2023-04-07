@@ -1,7 +1,7 @@
 # crb-yona-tiff
 
 This repo contains an orthomosaic, in GeoTIFF format, from a drone survey of coconut palms at Villa Del Carmen, Yona, Guam. 
-The drone was piloted by Jonelle N. Sayama and Keanno Lawrence A. Fausto, members of the University of Guam Drone Corps. The orthomosaic was made by Jonelle N. Sayama using Drone Deploy. Images were taken at 400 feet above ground with the camera pointed straight down.
+The drone was piloted by Jonelle N. Sayama and Keanno Lawrence A. Fausto, members of the [University of Guam Drone Corps](https://www.uog.edu/nasa-guam-space-grant/uog-drone-corps). The orthomosaic was made by Jonelle N. Sayama using Drone Deploy. Images were taken at 400 feet above ground with the camera pointed straight down.
 
 Many of the coconut palms in the orthomosaic show damage from coconut rhinoceros beetle (CRB), *Oryctes rhinoceros*, visible as v-shaped cuts to fronds. We plan to use the orthomosaic to test deep learning models trained to detect and quantify CRB damage. 
 
