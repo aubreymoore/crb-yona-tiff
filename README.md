@@ -1,5 +1,7 @@
 # crb-yona-tiff
 
+This repo is being replaced by [crb-vdc](https://github.com/aubreymoore/crb-vdc).
+
 This repo contains an orthomosaic, in GeoTIFF format, from a drone survey of coconut palms at Villa Del Carmen, Yona, Guam. 
 Images were taken at 400 feet above ground with the camera pointed straight down.
 The drone was piloted by Jonelle N. Sayama and Keanno Lawrence A. Fausto, members of the [University of Guam Drone Corps](https://www.uog.edu/nasa-guam-space-grant/uog-drone-corps) and the orthomosaic was made by Jonelle N. Sayama using Drone Deploy. 
